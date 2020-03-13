@@ -1,0 +1,10 @@
+<%- include('partials/header.ejs') %>
+
+<h1><%=title%></h1>
+<p><%=bodyContent%></p>
+
+<form action="/blog/delete" method="post">
+    <button class="btn btn-warning" name="deleteTitle" value="<%=titleId%>">Delete</button>
+</form>
+
+<%- include('partials/footer.ejs') %>

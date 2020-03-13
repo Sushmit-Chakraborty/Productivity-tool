@@ -1,0 +1,13 @@
+<%- include('partials/header.ejs') %>
+
+<form action="/weatherFind" method="post">
+    <label for="cityInput">City Name:</label>
+    <input type="text" id="cityInput" name="cityName">
+    <button type="submit">Go</button>
+</form>
+
+<form action="/">
+    <button class="goback">Home page</button>
+</form>
+
+<%- include('partials/footer.ejs') %>

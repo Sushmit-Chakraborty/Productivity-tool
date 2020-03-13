@@ -1,0 +1,138 @@
+h1.middle{
+    text-align: center;
+}
+
+.containerPersonal{
+    width:100%;
+    margin:auto;
+    padding-top:4%;
+    padding-bottom:4%;
+}
+
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+*{
+    box-sizing: border-box;
+}
+
+#section-1-gradient{
+    background:#076DFF;
+    background: -webkit-linear-gradient(#076DFF,#65a5ff);
+    background: -o-linear-gradient(#076DFF,#65a5ff);
+    background:-moz-linear-gradient(#076DFF,#65a5ff);
+    background: linear-gradient(#076DFF,#65a5ff);
+}
+
+h1.section2Header{
+    font-size:35px;
+    text-align: center;
+}
+
+.row{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+div.box{
+    text-align: center;
+    margin:24px;
+    padding: 36px 24px 40px 24px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,1.5),
+    0 2px 3px 0 rgba(0,0,0,1);
+}
+
+div.icon{
+    width:100%;
+}
+
+label{
+    font-size:35px;
+    font-weight: 600;
+}
+
+button.btn-primary{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 7px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+a, u {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+button.btn-secondary{
+    background-color: yellowgreen;
+    color: #fff;
+    border-color:green;
+    border-radius: 7px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+div.icon img{
+    display:block;
+    margin:auto;
+    height: 200px;
+    width: 300px;
+    box-shadow: -2px -2px 20px 2px rgba(0,0,0,0.15),
+    2px 2px 17px 2px rgba(0,0,0,1);
+}
+
+/* Blog pre-defined CSS */
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
