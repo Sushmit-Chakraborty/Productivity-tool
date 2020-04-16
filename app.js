@@ -84,11 +84,7 @@ app.post('/weatherFind',function(req,res){
             const icon = weatherData.weather[0].icon;
             const imageUrl = "http://openweathermap.org/img/wn/" + icon + "@2x.png";
 
-            res.write("<p>The weather in "+query+" is currently "+ weather_desc + "<p>");
-            res.write("<h1>The temperature in "+query + " is currently " + temp + " degree celsius <h1>");
-            res.write("<img src="+imageUrl+">");
-            
-            res.send();
+            res.render("weatherDisplay",{query:query,weatherDesc:weather_desc,weatherTemp:temp,weatherImage:imageUrl});
         })
     })
 

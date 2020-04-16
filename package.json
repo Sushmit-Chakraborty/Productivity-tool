@@ -8,6 +8,7 @@
   },
   "author": "Sushmit",
   "license": "ISC",
+  "proxy": "http://localhost:8080",
   "engines": {
     "node": "12.14.1"
   },
@@ -16,5 +17,8 @@
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "mongoose": "^5.9.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
   }
 }
